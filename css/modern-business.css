@@ -60,9 +60,8 @@ body {
   background-color: #F560B5;
 }
 /* Home Page Carousel */
-
 header.carousel {
-    height: 50%;
+    height: 100%;
 }
 
 header.carousel .item,
@@ -95,6 +94,7 @@ header.carousel .fill {
   color: #fff;
   background-color: #df5685;
   border-color: #df5685;
+  text-align: center;
 }
 
 /* Footer Styles */
@@ -107,6 +107,14 @@ footer {
     padding-left: 10px;
 }
 
+/*Social Icons*/
+.social-icons{
+  height: 30px;
+  width: 35px;
+  position: relative;
+  float: right;
+  padding-top: -10px;
+}
 /* Responsive Styles */
 
 @media(max-width:991px) {
